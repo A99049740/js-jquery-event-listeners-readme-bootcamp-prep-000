@@ -19,8 +19,8 @@ function frameIt(){
   })
 }
 function pressIt(){
-  $('#typing').on("keydown",function(e){
-    if (e.key === 'G'){
+  $('#typing').on("keydown",function(key){
+    if (key.which === 71){
       alert("blah blah bal")
     }
   })
